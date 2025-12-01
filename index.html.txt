@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boutique – Anders Shop Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-900 text-white">
+    <header class="py-6 border-b border-gray-700 text-center">
+        <h1 class="text-4xl font-bold">Boutique</h1>
+        <p class="text-gray-400">Découvrez nos meilleurs produits</p>
+    </header>
+
+    <section class="py-16 px-6 md:px-20">
+        <h2 class="text-3xl font-bold mb-10 text-center">Nos Produits</h2>
+
+        <div class="grid md:grid-cols-3 gap-10">
+            <!-- Produit 1 -->
+            <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transform transition">
+                <img src="https://via.placeholder.com/300" class="rounded-lg mb-4" />
+                <h3 class="text-2xl font-semibold">Produit 1</h3>
+                <p class="text-gray-400 mt-2 mb-4">Description rapide du produit.</p>
+                <p class="text-purple-400 font-bold text-xl mb-4">250 000 FG</p>
+                <a href="https://wa.me/22462169120" 
+                    class="bg-purple-600 px-4 py-2 rounded-lg font-semibold block text-center hover:bg-purple-700">
+                    Acheter sur WhatsApp
+                </a>
+            </div>
+
+            <!-- Produit 2 -->
+            <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transform transition">
+                <img src="https://via.placeholder.com/300" class="rounded-lg mb-4" />
+                <h3 class="text-2xl font-semibold">Produit 2</h3>
+                <p class="text-gray-400 mt-2 mb-4">Description rapide du produit.</p>
+                <p class="text-purple-400 font-bold text-xl mb-4">150 000 FG</p>
+                <a href="https://wa.me/22462169120" 
+                    class="bg-purple-600 px-4 py-2 rounded-lg font-semibold block text-center hover:bg-purple-700">
+                    Acheter sur WhatsApp
+                </a>
+            </div>
+
+            <!-- Produit 3 -->
+            <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transform transition">
+                <img src="https://via.placeholder.com/300" class="rounded-lg mb-4" />
+                <h3 class="text-2xl font-semibold">Produit 3</h3>
+                <p class="text-gray-400 mt-2 mb-4">Description rapide du produit.</p>
+                <p class="text-purple-400 font-bold text-xl mb-4">300 000 FG</p>
+                <a href="https://wa.me/22462169120" 
+                    class="bg-purple-600 px-4 py-2 rounded-lg font-semibold block text-center hover:bg-purple-700">
+                    Acheter sur WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 border-t border-gray-700 text-center text-gray-500">
+        © 2025 Anders Shop Store – Tous droits réservés
+    </footer>
+</body>
+</html>
